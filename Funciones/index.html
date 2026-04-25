@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" Atzin S">
+    <title>Funciones en JavaScript</title>
+    <script src="Libros.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Funciones en JavaScript</h1>
+    </header>
+    <main>
+        <section>
+            <h2 class=" Titulo">Libros que has leído</h2>
+            <input type="text" id="tituloLibro" placeholder="Escribe el nombre del libro">
+            <button class = "Boton" onclick="agregarLibro()">Agregar</button>
+        </section>
+        <div class="Btns">
+            <button class="Mostrar" onclick="mostrarLibrosLeidos()">Mostrar</button>
+            <button class="Eliminar" onclick="EliminarLibro()">Eliminar</button>
+            <ul id="listaLibros"></ul>
+        </div>
+    </main>
+</body>
+</html>
