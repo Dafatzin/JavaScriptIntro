@@ -1,0 +1,11 @@
+.Libros{ display: flex;flex-wrap: wrap;gap: 6%;justify-content: center; font-size: 36px;}
+.Libro1{width:19%;height: 80%;}
+.Libro1 img{width: 95%; height: auto;}
+.Libro1 p {margin-top: 8%;justify-content: center;text-align: center;}
+.Libro2{width: 20%; height: 80%;}
+.Libro2 img{width: 95%; height: auto;}
+.Libro2 p {margin-top: 8%;justify-content: center; text-align: center;}
+.Libro3{width: 20%; height: 80%;}
+.Libro3 img{width: 95%; height: auto;}
+.Libro3 p {margin-top: 8%;display: flex;justify-content: center;text-align: center;}
+.info-Libro{font-size: 18px;text-align: justify;}
