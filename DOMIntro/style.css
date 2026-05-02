@@ -1,0 +1,25 @@
+body{background-color: #170435;position: relative;}
+.geostar-fill-regular {font-family: "Geostar Fill", serif;font-weight: 400;font-style: normal;}
+.Titulo{font-family: "Geostar Fill", serif;color: rgb(195, 245, 248);text-align: center;text-shadow: 0 0 6px rgba(231, 231, 231, 0.788);}
+.lineon{border:none;height: 5px;width: 80%;background-color: aqua;margin:20px auto;box-shadow:0 0 5px #00f5d4, 0 0 10px #00f5d4, 0 0 20px #00f5d4, 0 0 40px #00f5d4;}
+.Descrip{color: white;text-align: center;font-size: 24px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-top: 3%;}
+#Caja{width: 80%;position: absolute;right: 10%;height: 200px;}
+#Enviar{position: absolute;margin-top: 17%;left: 43%;width: 15%;height: 18%;}
+#Comentarios{position: absolute;margin-top: 21%;left: 6%;width: 85%;height: 80%;overflow-x:auto;display: flex;background-color: #ffffff;color: black;font-size: 12px;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;box-shadow:0 0 3px #00f5d4cc, 0 0 7px #00f5d4d5, 0 0 9px #00f5d4be, 0 0 30px #00f5d49c;}
+#Eliminar{position: absolute;margin-top: 33%;right: 20%;width: 12%;height: 24%;background-color: red;color: white;font-size: 12px;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;box-shadow:0 0 3px #ff0000cc, 0 0 7px #ff0000d5, 0 0 9px #ff0000be, 0 0 30px #ff00009c;}
+.card-comentario{
+    margin: 8px;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0 3px #00f5d4cc, 0 0 7px #00f5d4d5, 0 0 9px #00f5d4be, 0 0 20px #00f5d49c;
+    text-align: left;
+    max-width:20%;
+    
+}
+
+.card-comentario .meta{
+    font-size: 10px;
+    color: #00b4a0;
+    margin-bottom: 4px;
+}
