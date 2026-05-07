@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Atzin S">
+    <title>Generador de Contraseñas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header>
+        <div class="Titulo">
+            <img src="img/Logo.png" alt="Logo">
+            <h1>Generador de Contraseñas</h1>
+        </div>
+    </header>
+<main>
+    <!--Empezamos Parte 1: Generar Contraseña-->
+     <div class="Sub">
+        <p>Genera tu Contraseña</p>
+     </div>
+    <div id = "Contraseña">
+        <img src="img/Copiar.png" alt="Copiar">
+    </div>
+    <!-- Imagenes Aquí-->
+     <div class="Imagen1">
+        <img src="img/Candado3.png" alt="Candado">
+     </div>
+     <div class="Imagen2">
+        <img src="img/Cadena1.png" alt="Cadena1">
+        </div>
+    <div class="Imagen3">
+        <img src="img/Candado1.png" alt="Candado1">
+    </div>
+    <div class = "Imagen4">
+        <img src="img/Cadena2.png" alt="Cadena2">
+    </div>
+     </div>
+     <!--Pasamos a la Segunda Parte: Requisitos-->
+    <section class="Requisitos"> 
+       <div class="Subti">
+        <p>Longitud de la Contraseña</p>
+     </div>
+     <div id = "Longitud">
+        <input type="range" min="1" max="20" value="16">
+         </div> 
+     <!--Empezamos las condiciones-->
+    <div class="ListaCond">
+     <div id = "Condición1">
+        <div class = "Cuadrado1"></div>
+       <p>Incluye Mayúsculas</p>
+     </div>
+     <!--Condición 2-->
+     <div id = "Condición2">
+        <div class = "Cuadrado2"></div>
+       <p>Incluye Minúsculas</p>
+         </div>
+       <div id="Condición3">
+        <div class = "Cuadrado3"></div>
+       <p>Incluye Números</p>
+            </div>
+         <div id="Condición4">
+          <div class = "Cuadrado4"></div>
+          <p>Incluye Símbolos</p>
+       </div>
+       </div>
+       <!--Medidor de Requisitos-->
+         <div class="Medidor">
+          <div id="Relleno"></div>
+         </div>
+         <!-- Ponemos el Botón Generador -->
+         <button id = "Generar"> Generar Contraseña</button>
+    </section>
+</main>
+<script src="Generador.js"></script>
+</body>
+</html>

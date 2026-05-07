@@ -1,0 +1,29 @@
+body{background-color: black;position: relative;}
+.Imagen1{position: absolute; top: 20%; right: 2%;width: 10%;top: 94%;}
+.Imagen1 img{width: 70%;height: auto;}
+.Imagen2{position: absolute; top: 2%; left: 4%;width: 10%;}
+.Imagen2 img{width: 40%;height: auto;}
+.Imagen3{position: absolute; top: 80%; left: 1%;width: 20%;}
+.Imagen3 img{width: 30%;height: auto;}
+.Imagen4{position: absolute; top: 20%; right: 1%;width: 8%;}
+.Imagen4 img{width: 60%;height: auto;}
+/*Fin de Imagen y empiezo de estilos*/
+.Titulo h1 {color: white;font-family: "Quicksand", sans-serif;margin: 6px;text-align: center;}
+.Titulo img{width: 13%;height: auto;display: flex; align-items: center;margin: 0 auto;}
+.Sub{color: white;font-family: "Quicksand", sans-serif;text-align: center;margin: 0 auto;}
+#Contraseña{color: white;border: 2px solid darkorange;width: 60%;height: 40%; box-shadow: 0 0 8px #FF6600, 0 0 16px #FF6600, 0 0 32px #FF4500;display: flex;justify-content: end;margin-left: 18%;}
+#Contraseña img{width: 7%;height: auto;display: flex;margin: 15px;}
+#textoContrasena {font-size: 32px;letter-spacing: 3px;flex: 1;text-align: center;align-self: center;
+}
+.Requisitos{border: 2px solid darkorange;color: white;font-family: "Quicksand", sans-serif;width: 60%;height: 400px; box-shadow: 0 0 8px #FF6600, 0 0 16px #FF6600, 0 0 32px #FF4500;margin-left: 18%;margin-top: 30px;}
+.Subti{display: flex; justify-content: flex-start;width: 90%;height: 9%;align-items: center;margin-top: 6px;margin-left: 4%;margin-bottom: 3%;}
+#Longitud{width: 90%;display: flex;height: 8%;margin-left: 6%;}
+#Longitud input[type="range"]{ width: 100%;height: 3px;background:white;border-radius: 5px;outline: none;display: flex;}
+.ListaCond{display: flex;flex-wrap: wrap;width: 96%;height: 45%;margin-left: 2%;gap: 2px;}
+/*Inicio de Condición 1*/
+#Condición1, #Condición2, #Condición3, #Condición4{display: flex;width: 42%;margin: 2px;height:20%;margin-left: 6%;}
+#Condición1 p, #Condición2 p, #Condición3 p, #Condición4 p{margin: 0px;margin-left: 20%;align-content: center;font-size: 18px;}
+.Cuadrado1,.Cuadrado2, .Cuadrado3, .Cuadrado4{border: 2px solid #FF4500;width: 30px;height: 30px;display: flex;align-self: center;flex-shrink: 0;}
+/*Iniciamos el Medidor de Requisitos*/
+.Medidor{border: 2px solid #FF4500;width: 90%;height: 25px;margin-left: 5%;}
+#Generar{border:#FF4500 2 px solid; color: rgb(255, 255, 255);background-color: #FF4500; box-shadow: 0 0 8px #FF4500;margin-top: 3%;margin-left: 40%;height: 10%;}
